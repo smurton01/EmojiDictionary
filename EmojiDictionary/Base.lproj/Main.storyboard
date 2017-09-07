@@ -48,7 +48,9 @@
                             <outlet property="delegate" destination="LPc-np-uNi" id="lBG-Gp-xL8"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="QxT-ae-DlS"/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="QxT-ae-DlS">
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="7x6-Sl-ned"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B97-EI-hy6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
