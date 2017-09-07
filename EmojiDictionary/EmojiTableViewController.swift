@@ -123,5 +123,10 @@ class EmojiTableViewController: UITableViewController {
         let emoji = emojis[indexPath.row]
         print("\(emoji.symbol) \(indexPath)")
     }
+    
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) ->
+        UITableViewCellEditingStyle {
+            return .none
+    }
 
 }
