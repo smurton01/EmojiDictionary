@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,6 +25,17 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="R3D-XA-h7c" id="ixu-k1-Zhs">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lkM-5u-fXa">
+                                            <rect key="frame" x="8" y="8" width="359" height="27.5"/>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="lkM-5u-fXa" firstAttribute="leading" secondItem="ixu-k1-Zhs" secondAttribute="leadingMargin" id="NPm-qa-GL0"/>
+                                        <constraint firstItem="lkM-5u-fXa" firstAttribute="top" secondItem="ixu-k1-Zhs" secondAttribute="topMargin" id="bIe-Rv-HEc"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="lkM-5u-fXa" secondAttribute="bottom" id="i2h-ic-kkU"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="lkM-5u-fXa" secondAttribute="trailing" id="uAF-gG-hnE"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
