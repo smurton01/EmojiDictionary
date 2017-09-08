@@ -13,6 +13,7 @@
 		E955E3291F5F2129009DFFEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E955E3271F5F2129009DFFEB /* LaunchScreen.storyboard */; };
 		E955E3311F5F2202009DFFEB /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = E955E3301F5F2202009DFFEB /* Emoji.swift */; };
 		E955E3331F5F2307009DFFEB /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E955E3321F5F2307009DFFEB /* EmojiTableViewController.swift */; };
+		E955E3351F632917009DFFEB /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E955E3341F632917009DFFEB /* EmojiTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E955E32A1F5F2129009DFFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E955E3301F5F2202009DFFEB /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		E955E3321F5F2307009DFFEB /* EmojiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		E955E3341F632917009DFFEB /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmojiTableViewCell.swift; path = ../EmojiTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E955E31D1F5F2128009DFFEB /* EmojiDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				E955E3341F632917009DFFEB /* EmojiTableViewCell.swift */,
 				E955E31E1F5F2129009DFFEB /* AppDelegate.swift */,
 				E955E3221F5F2129009DFFEB /* Main.storyboard */,
 				E955E3301F5F2202009DFFEB /* Emoji.swift */,
@@ -142,6 +145,7 @@
 			files = (
 				E955E3311F5F2202009DFFEB /* Emoji.swift in Sources */,
 				E955E3331F5F2307009DFFEB /* EmojiTableViewController.swift in Sources */,
+				E955E3351F632917009DFFEB /* EmojiTableViewCell.swift in Sources */,
 				E955E31F1F5F2129009DFFEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
