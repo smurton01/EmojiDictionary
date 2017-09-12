@@ -77,11 +77,16 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="QxT-ae-DlS">
                         <barButtonItem key="leftBarButtonItem" systemItem="edit" id="7x6-Sl-ned"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="SwW-Vd-nLm">
+                            <connections>
+                                <segue destination="aeg-4M-LPL" kind="presentation" id="0SV-E5-CQo"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B97-EI-hy6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1300" y="-149"/>
+            <point key="canvasLocation" x="1089" y="-150"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="5Xf-ra-Umr">
@@ -114,7 +119,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9aq-FI-QmB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1866" y="553"/>
+            <point key="canvasLocation" x="2498" y="-151"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LLv-YW-F70">
@@ -130,7 +135,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rrJ-o3-3Nd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="914" y="552"/>
+            <point key="canvasLocation" x="1794" y="434"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="far-b1-be9">
@@ -150,6 +155,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="aZ9-su-pXf"/>
+        <segue reference="6kf-TF-ogA"/>
     </inferredMetricsTieBreakers>
 </document>
