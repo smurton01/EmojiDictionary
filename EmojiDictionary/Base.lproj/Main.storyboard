@@ -62,6 +62,11 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="lkM-5u-fXa" secondAttribute="trailing" id="uAF-gG-hnE"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="EAO-2f-8ds" id="31k-X9-tIt"/>
+                                    <outlet property="nameLabel" destination="pBs-zN-Xoh" id="nFi-r0-wOD"/>
+                                    <outlet property="symbolLabel" destination="R9n-lg-YdX" id="V4l-2C-2nQ"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
