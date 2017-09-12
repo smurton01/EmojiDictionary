@@ -105,6 +105,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2Zl-ir-lpM" id="nRD-8Y-us3">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jJm-8P-riV">
+                                                    <rect key="frame" x="8" y="8" width="359" height="27.5"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="jJm-8P-riV" firstAttribute="top" secondItem="nRD-8Y-us3" secondAttribute="topMargin" id="6X6-64-sVf"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="jJm-8P-riV" secondAttribute="trailing" id="VID-qP-dGH"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="jJm-8P-riV" secondAttribute="bottom" id="ibM-zk-ZdQ"/>
+                                                <constraint firstItem="jJm-8P-riV" firstAttribute="leading" secondItem="nRD-8Y-us3" secondAttribute="leadingMargin" id="tig-dA-bHS"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -117,6 +131,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6JA-By-cVT" id="9ne-A7-3oQ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6S8-M2-gyf">
+                                                    <rect key="frame" x="8" y="8" width="359" height="27.5"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="6S8-M2-gyf" secondAttribute="trailing" id="Edv-bb-9li"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="6S8-M2-gyf" secondAttribute="bottom" id="HtC-Ya-MqZ"/>
+                                                <constraint firstItem="6S8-M2-gyf" firstAttribute="top" secondItem="9ne-A7-3oQ" secondAttribute="topMargin" id="pFf-j3-OUG"/>
+                                                <constraint firstItem="6S8-M2-gyf" firstAttribute="leading" secondItem="9ne-A7-3oQ" secondAttribute="leadingMargin" id="taN-zy-jC8"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -129,6 +157,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rHo-aM-IWz" id="glF-b2-sjM">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XHw-VQ-odY">
+                                                    <rect key="frame" x="8" y="8" width="359" height="27"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="XHw-VQ-odY" secondAttribute="bottom" id="5fK-eY-PUv"/>
+                                                <constraint firstItem="XHw-VQ-odY" firstAttribute="leading" secondItem="glF-b2-sjM" secondAttribute="leadingMargin" id="8vz-4a-2IJ"/>
+                                                <constraint firstItem="XHw-VQ-odY" firstAttribute="top" secondItem="glF-b2-sjM" secondAttribute="topMargin" id="STb-qi-8UE"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="XHw-VQ-odY" secondAttribute="trailing" id="slK-19-rGo"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -141,6 +183,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ib4-fj-sKX" id="Unj-xf-5hM">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HTh-YP-Dkd">
+                                                    <rect key="frame" x="8" y="8" width="359" height="27.5"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="HTh-YP-Dkd" secondAttribute="bottom" id="LcD-Fo-uvd"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="HTh-YP-Dkd" secondAttribute="trailing" id="Yr3-lI-YJY"/>
+                                                <constraint firstItem="HTh-YP-Dkd" firstAttribute="leading" secondItem="Unj-xf-5hM" secondAttribute="leadingMargin" id="xb1-fZ-kcw"/>
+                                                <constraint firstItem="HTh-YP-Dkd" firstAttribute="top" secondItem="Unj-xf-5hM" secondAttribute="topMargin" id="zTj-n4-jdf"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
