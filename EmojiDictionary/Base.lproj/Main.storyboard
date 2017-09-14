@@ -207,7 +207,10 @@
                             <outlet property="delegate" destination="vhK-TY-Cig" id="0gW-e6-PU0"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="k3G-zG-X3O"/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="k3G-zG-X3O">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="m1K-Sh-Gxl"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="ITl-m9-R7Q"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="descriptionTextField" destination="XHw-VQ-odY" id="aKj-Xk-YNH"/>
                         <outlet property="nameTextField" destination="6S8-M2-gyf" id="OC3-73-pZn"/>
