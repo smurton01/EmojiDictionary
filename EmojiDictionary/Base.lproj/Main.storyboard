@@ -38,15 +38,15 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mzZ-ol-eKD">
                                                     <rect key="frame" x="27" y="0.0" width="332" height="27.5"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBs-zN-Xoh">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Name Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBs-zN-Xoh">
                                                             <rect key="frame" x="0.0" y="0.0" width="332" height="14"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAO-2f-8ds">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Description Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAO-2f-8ds">
                                                             <rect key="frame" x="0.0" y="14" width="332" height="13.5"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -56,10 +56,10 @@
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="lkM-5u-fXa" firstAttribute="leading" secondItem="ixu-k1-Zhs" secondAttribute="leadingMargin" id="NPm-qa-GL0"/>
-                                        <constraint firstItem="lkM-5u-fXa" firstAttribute="top" secondItem="ixu-k1-Zhs" secondAttribute="topMargin" id="bIe-Rv-HEc"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="lkM-5u-fXa" secondAttribute="bottom" id="i2h-ic-kkU"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="lkM-5u-fXa" secondAttribute="trailing" id="uAF-gG-hnE"/>
+                                        <constraint firstItem="lkM-5u-fXa" firstAttribute="leading" secondItem="ixu-k1-Zhs" secondAttribute="leading" constant="8" id="2GM-qL-Mra"/>
+                                        <constraint firstItem="lkM-5u-fXa" firstAttribute="top" secondItem="ixu-k1-Zhs" secondAttribute="top" constant="8" id="6DY-dS-zEL"/>
+                                        <constraint firstAttribute="trailing" secondItem="lkM-5u-fXa" secondAttribute="trailing" constant="8" id="TB3-J1-wO1"/>
+                                        <constraint firstAttribute="bottom" secondItem="lkM-5u-fXa" secondAttribute="bottom" constant="8" id="txL-im-BGE"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
