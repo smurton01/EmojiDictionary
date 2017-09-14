@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Emoji {
+class Emoji: NSObject, NSCoding {
     var symbol: String
     var name: String
     var description: String
