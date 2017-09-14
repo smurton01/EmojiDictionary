@@ -66,7 +66,7 @@
                                     <outlet property="descriptionLabel" destination="EAO-2f-8ds" id="31k-X9-tIt"/>
                                     <outlet property="nameLabel" destination="pBs-zN-Xoh" id="nFi-r0-wOD"/>
                                     <outlet property="symbolLabel" destination="R9n-lg-YdX" id="V4l-2C-2nQ"/>
-                                    <segue destination="vhK-TY-Cig" kind="show" identifier="EditEmoji" id="aZ9-su-pXf"/>
+                                    <segue destination="vhK-TY-Cig" kind="show" identifier="EditEmoji" id="hl5-vq-ZVN"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -79,7 +79,7 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="edit" id="7x6-Sl-ned"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="SwW-Vd-nLm">
                             <connections>
-                                <segue destination="aeg-4M-LPL" kind="presentation" id="0SV-E5-CQo"/>
+                                <segue destination="aeg-4M-LPL" kind="presentation" identifier="AddEmoji" id="0SV-E5-CQo"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="1089" y="-150"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Add Edit Emoji Table View Controller-->
         <scene sceneID="5Xf-ra-Umr">
             <objects>
-                <tableViewController id="vhK-TY-Cig" sceneMemberID="viewController">
+                <tableViewController title="Add Edit Emoji Table View Controller" id="vhK-TY-Cig" customClass="AddEditEmojiTableViewController" customModule="EmojiDictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Zco-qZ-oSm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -208,6 +208,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="k3G-zG-X3O"/>
+                    <connections>
+                        <outlet property="descriptionTextField" destination="XHw-VQ-odY" id="aKj-Xk-YNH"/>
+                        <outlet property="nameTextField" destination="6S8-M2-gyf" id="OC3-73-pZn"/>
+                        <outlet property="symbolTextField" destination="jJm-8P-riV" id="k7d-bp-VUx"/>
+                        <outlet property="usageTextField" destination="HTh-YP-Dkd" id="5if-oS-ghA"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9aq-FI-QmB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -247,6 +253,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="aZ9-su-pXf"/>
+        <segue reference="hl5-vq-ZVN"/>
     </inferredMetricsTieBreakers>
 </document>
