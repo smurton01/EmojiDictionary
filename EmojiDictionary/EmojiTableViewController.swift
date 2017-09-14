@@ -41,10 +41,7 @@ class EmojiTableViewController: UITableViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-    // MARK: - Table view data source
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "EmojiCell", for: indexPath) as! EmojiTableViewCell
@@ -59,7 +56,11 @@ class EmojiTableViewController: UITableViewController {
         let movedEmoji = emojis.remove (at: fromIndexPath.row)
         emojis.insert(movedEmoji, at: to.row)
         tableView.reloadData()
-        
+    }
+    
+    @IBAction func refreshControlActivated (_ sender: UIRefreshControl) {
+        tableView.reloadData()
+        sender.endRefreshing()
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -95,10 +96,6 @@ class EmojiTableViewController: UITableViewController {
     }
     */
 
-    
-    // Override to support rearranging the table view.
-
-    
 
     /*
     // Override to support conditional rearranging of the table view.
@@ -161,8 +158,8 @@ class EmojiTableViewController: UITableViewController {
                 let newIndexPath = IndexPath(row: emojis.count, section: 0)
                 emojis.append(emoji)
                 tableView.insertRows(at: [newIndexPath], with: .automatic)
-            }
+                }
             }
         }
-    }
+}
 
