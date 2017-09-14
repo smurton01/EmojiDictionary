@@ -145,4 +145,9 @@ class EmojiTableViewController: UITableViewController {
         }
     }
 
+    @IBAction func unwindToEmojiTableView(segue: UIStoryboardSegue) {
+        
+    }
+
+
 }
