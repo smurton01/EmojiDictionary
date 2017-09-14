@@ -15,6 +15,8 @@ class AddEditEmojiTableViewController: UITableViewController {
     @IBOutlet weak var descriptionTextField: UITextField!
     @IBOutlet weak var usageTextField: UITextField!
     
+    @IBOutlet weak var saveButton: UIBarButtonItem!
+    
     var emoji: Emoji?
 
     override func viewDidLoad() {
@@ -26,6 +28,8 @@ class AddEditEmojiTableViewController: UITableViewController {
             descriptionTextField.text = emoji.description
             usageTextField.text = emoji.usage
         }
+        
+        updateSaveButtonState()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -34,6 +38,18 @@ class AddEditEmojiTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
+    func updateSaveButtonState() {
+        let symbolText = symbolTextField.text ?? ""
+        let nameText = nameTextField.text ?? ""
+        let descriptionText = descriptionTextField.text ?? ""
+        let usageText = usageTextField.text ?? ""
+        saveButton.isEnabled = !symbolText.isEmpty && !nameText.isEmpty && !descriptionText.isEmpty && !usageText.isEmpty
+    }
+    
+    @IBAction func textEditingChanged(_ sender: UITextField) {
+        updateSaveButtonState()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
